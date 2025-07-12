@@ -1,0 +1,80 @@
+.learning-upgrade-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 2rem;
+    padding: 2rem;
+    font-family: sans-serif;
+    background: #fff;
+    color: #222;
+    margin: auto;
+}
+
+
+@media (min-width: 641px) {
+    .learning-upgrade-container {
+        flex-direction: row;
+    }
+}
+
+
+.right-section {
+
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding-top: 5rem;
+}
+
+.highlight {
+    color: orange;
+    font-weight: bold;
+}
+
+.bold-orange {
+    font-weight: bold;
+    color: orange;
+}
+
+.button-row {
+    margin-top: 1rem;
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.primary-button {
+    background-color: orange;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 1rem ;
+    padding-left : 1rem;
+    padding-right : 1rem;
+    padding-top : 0.2rem;
+    padding-bottom : 0.2rem;
+}
+
+.link-button {
+    color: orange;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.info-card {
+    background-color: #fff7e6;
+    border: 1px solid #ffe0b2;
+    padding: 1rem;
+    border-radius: 5px;
+    font-size: 0.95rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}

@@ -1,0 +1,69 @@
+.time-stacking-container {
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 2rem;
+    font-family: 'Arial', sans-serif;
+    color: #222;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title {
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin-bottom: 1.5rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.sub-title {
+    font-size: 1.4rem;
+    font-weight: bold;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+.info-box {
+    background-color: #fff7e6;
+    border: 1px solid #ffe0b2;
+    padding: 1rem 1.2rem;
+    border-radius: 5px;
+    margin-top: 1rem;
+    line-height: 1.5;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0;
+    color: black;
+
+
+
+
+}
+
+.note {
+    margin-top: 0.8rem;
+    font-size: 0.95rem;
+    color: #444;
+}
+
+.footer-note {
+    margin-top: 2rem;
+    font-size: 0.9rem;
+    font-weight: 500;
+    text-align: center;
+    color: black ;
+}
+
+.info{
+
+    display: flex;
+    gap: 1rem;
+}
+
+hr{
+    color: black;
+}

@@ -1,0 +1,35 @@
+.icon-wrapper .icon {
+    color: rgb(243, 145, 46) ;
+    width: 36px;
+    height: 36px;
+}
+
+.icon-wrapper {
+    padding-top: 10px;
+    display: inline-block;
+}
+
+.play-icon {
+    width: 36px;
+    height: 36px;
+    color :white;
+}
+
+.icon-wrapper.learn-icon {
+    position: relative;
+    width: 48px;
+    height: 48px;
+}
+
+.icon.book {
+    color: orange;
+    font-size: 48px;
+}
+
+.icon.play {
+    color: orange;
+    font-size: 24px;
+    position: absolute;
+    bottom: -8px;
+    right: -8px;
+}

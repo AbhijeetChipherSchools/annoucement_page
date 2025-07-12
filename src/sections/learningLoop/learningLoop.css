@@ -1,0 +1,122 @@
+.learning-loop {
+    font-family: Arial, sans-serif;
+    color: #333;
+    padding: 40px 20px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.section-title {
+    text-align: left;
+    font-size: 16px;
+    font-weight: bold;
+    /*margin-bottom: 30px;*/
+}
+
+.loop-steps {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 50px;
+    gap: 20px;
+}
+
+.step {
+    display: flex;
+    gap : 1rem ;
+    text-align: left;
+}
+
+.icon {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.step-title {
+    font-size: 14px;
+}
+
+.step-detail {
+    font-weight: bold;
+    font-size: 16px;
+
+}
+
+.link {
+    color: orange;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.missions-section {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.missions-text {
+    flex: 1 1 50%;
+    padding-right: 20px;
+}
+
+.missions-text h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.missions-text p {
+    margin-bottom: 20px;
+}
+
+.start-button {
+    padding: 10px 20px;
+    background-color: #fbb040;
+    color: white;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.missions-image {
+    flex: 1 1 40%;
+}
+
+.missions-image img {
+    max-width: 100%;
+    border-radius: 8px;
+}
+
+.subscribe-banner {
+    background-color: #1a1a1a;
+    color: white;
+    padding: 30px;
+    border-radius: 10px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.banner-title {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.banner-text {
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+
+.interest-button {
+    padding: 10px 20px;
+    background-color: #fbb040;
+    color: white;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 4px;
+}
