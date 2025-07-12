@@ -4,6 +4,13 @@
     height: 36px;
 }
 
+.loop-icon{
+    width: 56px;
+    height: 56px;
+    color: rgb(243, 145, 46) ;
+    margin-top: 20px;
+    margin-right: 70px;
+}
 .icon-wrapper {
     padding-top: 10px;
     display: inline-block;
@@ -15,12 +22,26 @@
     color :white;
 }
 
-.icon-wrapper.learn-icon {
-    position: relative;
-    width: 48px;
-    height: 48px;
+.sm-icon img
+{
+    width: 28px ;
+    height: 28px ;
 }
 
+.lg-icon
+{
+    width: 56px ;
+    height: 56px ;
+    margin-top: 10px;
+    color: orange;
+}
+
+.lg-icon img
+{
+    width: 56px ;
+    height: 56px ;
+
+}
 .icon.book {
     color: orange;
     font-size: 48px;
@@ -28,8 +49,14 @@
 
 .icon.play {
     color: orange;
-    font-size: 24px;
+    font-size: 16px;
     position: absolute;
     bottom: -8px;
     right: -8px;
+}
+
+.thinking-icon {
+    width: 1px;
+    height: 1px ;
+    color: orange;
 }

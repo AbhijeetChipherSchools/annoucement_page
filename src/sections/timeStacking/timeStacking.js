@@ -13,11 +13,11 @@ const TimeStacking = () => {
             <div className="info-box">
                 <div className="info">
                     <ThinkingIcon/>
+                    <div className="temp">
                     <p>
                         <strong> Claimed extra time using CipherPoints?</strong> Any unused minutes will be carried over
-                        the next day — so you don’t lose what you’ve earned.
-                    </p>
-                    <LoopIcon/>
+                        the next day — so you don’t lose what you’ve earned. </p> <LoopIcon/>
+                    </div>
                 </div>
 
                 <hr color={"black"}/>

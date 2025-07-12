@@ -55,7 +55,9 @@ const LearningLoop = () => {
                     If you're someone who hates the ticking timer and loves to binge-learn… Why not support your own growth?<br />
                     <strong>Unlock full access for just 49/month — Less than your late-night nachos or chai + maggie combo! 🧠 </strong>
                 </p>
-                <button className="interest-button">Yes, I'm interested</button>
+                <span>
+                    <button className="interest-button">Yes, I'm interested</button>  ⟵  tap here to show your interest
+                </span>
             </div>
         </div>
     );

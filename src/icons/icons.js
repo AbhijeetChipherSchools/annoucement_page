@@ -22,53 +22,45 @@ import bookIcon from '@iconify-icons/mdi/book-outline';
 import playCircle from '@iconify-icons/mdi/play-circle';
 
 export const LearnIcon = () => (
-    <div className="icon-wrapper learn-icon">
-        <Icon icon={bookIcon} className="icon book" />
-        <Icon icon={playCircle} className="icon play" />
-    </div>
+        <img src="/icon1.png" className={"lg-icon"} alt="" />
 );
 
 
 export const DangerIcon = () => (
-    <div className="icon-wrapper danger-outline">
-        <Icon icon={alertOutline} className="icon" color={"red"} />
+    <div className="sm-icon">
+        <img src="/icon2.png" alt=""/>
     </div>
 );
 
 export const StartLearningIcon = () => (
-    <div className="icon-wrapper">
-        <Icon icon={bookIcon} className="icon" />
+    <div className="lg-icon">
+        <img src="/p.png" alt=""/>
     </div>
 );
 
 
-export const TimeEarnIcon = () => (
-    <div className="icon-wrapper">
-        <Icon icon={clockIcon} className="icon" />
-    </div>
-);
 
 export const LoopIcon = () => (
-    <div className="icon-wrapper">
-        <Icon icon={repeatIcon} className="icon" />
-    </div>
+        <Icon icon={repeatIcon} className="loop-icon" />
+
 );
 
 
 
 export const ThinkingIcon = () => (
-    <div className="icon-wrapper">
-        <Icon icon={headCogIcon} className="icon" />
+    <div className="sm-icon">
+        <img src="/icon3.png" alt=""/>
     </div>
 );
+
 export const TimeStackIcon = () => (
     <div className="icon-wrapper">
-        <Icon icon={layersIcon} className="icon" />
+        <Icon icon={layersIcon} className="lg-icon" />
     </div>
 );
 export const ClockIcon = () => (
-    <div className="icon-wrapper">
-        <Icon icon={clockIcon} className="icon" />
+    <div className="lg-icon">
+        <Icon icon={clockIcon} className="lg-icon" />
     </div>
 );
 
